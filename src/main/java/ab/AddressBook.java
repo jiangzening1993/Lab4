@@ -48,23 +48,4 @@ public class AddressBook {
         return buddyInfos.size();
     }
 
- /*   @Bean
-    public CommandLineRunner demo(BuddyList list){
-        return (args) -> {
-            //Part2.AddressBook addressBook = new Part2.AddressBook();
-            //BuddyInfo bi = new BuddyInfo(1, "AAAA", "ZDC", "1234");
-            //BuddyInfo bi2 = new BuddyInfo(2, "BBBB", "TYY", "5647");
-            //addressBook.addBuddy(bi);
-            //list.save(bi);
-            //list.save(bi2);
-            //System.out.println(addressBook.toString());
-            for (BuddyInfo b : list.findAll()){
-               log.info(b.toString());
-            }
-        };
-    }
-
-    public static void main(String[] args) {
-        SpringApplication.run(AddressBook.class);
-    }*/
 }
